@@ -1,0 +1,83 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Office Manager Pro - DevExtreme App</title>
+    
+    <!-- DevExtreme CSS -->
+    <link rel="stylesheet" href="https://cdn3.devexpress.com/jslib/23.2.5/css/dx.light.css">
+    <link rel="stylesheet" href="styles.css">
+    
+    <!-- Dependencies -->
+    <script src="https://code.jquery.com/jquery-3.7.1.min.js"></script>
+    <script src="https://cdn3.devexpress.com/jslib/23.2.5/js/dx.all.js"></script>
+</head>
+<body>
+    <!-- Top Navbar -->
+    <div id="navbar"></div>
+    
+    <div class="main-container">
+        <!-- Sidebar Navigation -->
+        <div id="sidebar"></div>
+        
+        <!-- Main Content Area -->
+        <div class="content-area">
+            <!-- Dashboard Section -->
+            <div id="dashboard-section" class="section active">
+                <h2>📊 Dashboard</h2>
+                <div class="dashboard-cards">
+                    <div class="stat-card blue">
+                        <div class="stat-number" id="totalEmployees">0</div>
+                        <div class="stat-label">Total Employees</div>
+                    </div>
+                    <div class="stat-card green">
+                        <div class="stat-number" id="completedTasks">0</div>
+                        <div class="stat-label">Completed Tasks</div>
+                    </div>
+                    <div class="stat-card orange">
+                        <div class="stat-number" id="pendingTasks">0</div>
+                        <div class="stat-label">Pending Tasks</div>
+                    </div>
+                    <div class="stat-card red">
+                        <div class="stat-number" id="overdueTasks">0</div>
+                        <div class="stat-label">Overdue Tasks</div>
+                    </div>
+                </div>
+                <div class="charts-row">
+                    <div class="chart-container">
+                        <h3>Tasks by Status</h3>
+                        <div id="taskPieChart"></div>
+                    </div>
+                    <div class="chart-container">
+                        <h3>Tasks Completed This Week</h3>
+                        <div id="weeklyChart"></div>
+                    </div>
+                </div>
+            </div>
+
+            <!-- Employees Section -->
+            <div id="employees-section" class="section">
+                <h2>👥 Employee Management</h2>
+                <div id="employeeToolbar"></div>
+                <div id="employeeGrid"></div>
+            </div>
+
+            <!-- Tasks Section -->
+            <div id="tasks-section" class="section">
+                <h2>✅ Task Management</h2>
+                <div id="taskToolbar"></div>
+                <div id="taskGrid"></div>
+            </div>
+
+            <!-- Add Employee Popup -->
+            <div id="employeePopup"></div>
+            
+            <!-- Add Task Popup -->
+            <div id="taskPopup"></div>
+        </div>
+    </div>
+
+    <script src="app.js"></script>
+</body>
+</html>
