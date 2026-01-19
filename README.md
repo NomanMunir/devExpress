@@ -2,7 +2,7 @@
 
 A modern **Employee & Task Management System** built with DevExpress DevExtreme - demonstrating how enterprise UI components can accelerate web application development.
 
-[![Live Demo](https://img.shields.io/badge/Live-Demo-brightgreen)](https://nomanmunir.github.io/devExpress-demo/)
+[![Live Demo](https://img.shields.io/badge/Live-Demo-brightgreen)](https://nomanmunir.github.io/devExpress/)
 ![DevExtreme](https://img.shields.io/badge/DevExtreme-23.2.5-orange)
 ![JavaScript](https://img.shields.io/badge/JavaScript-ES6+-yellow)
 ![jQuery](https://img.shields.io/badge/jQuery-3.7.1-blue)
@@ -10,7 +10,7 @@ A modern **Employee & Task Management System** built with DevExpress DevExtreme 
 
 ## 🌐 Live Demo
 
-**[👉 View Live Demo](https://nomanmunir.github.io/devExpress-demo/)**
+**[👉 View Live Demo](https://nomanmunir.github.io/devExpress/)**
 
 ## 📸 Features
 
@@ -77,8 +77,8 @@ It provides **70+ UI components** including:
 
 1. **Clone the repository**
    ```bash
-   git clone https://github.com/NomanMunir/devExpress-demo.git
-   cd devExpress-demo
+   git clone https://github.com/NomanMunir/devExpress.git
+   cd devExpress
    ```
 
 2. **Start a local server** (choose one):
